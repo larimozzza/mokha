@@ -1,0 +1,232 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    cursor: none;
+}
+.swiper {
+    width: 100vw;
+    height: 100vw;
+  }
+  
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    animation: appearance 2s ease 0.7s forwards;
+    position: fixed;
+    opacity: 0;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+@keyframes appearance {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.main_text{
+    display: flex;
+    width: 95.7vw;
+    height: 47vw;
+    font-family: JournalSans;
+    font-size: 16.14vw;
+    color: #696969;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    margin-left: 1.6vw;
+}
+.temple1{
+    overflow: hidden;
+    display: block;
+    height: 11vw;
+}
+.temple{
+    margin-bottom: -3vw;
+    animation: temple 0.7s ease-in;
+    margin-top: -2vw;
+    height: 11vw;
+}
+@keyframes temple {
+    0%{
+        transform: translate(0vw, 12vw);
+    }
+    100%{
+        transform: translate(0vw, 0vw);
+    }
+}
+.little_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95.7vw;
+}
+.description{
+    font-size: 1.4vw;
+    margin-top: 4.6vw;
+    width: 29vw;
+    opacity: 0;
+    animation: appearance 2s ease 0.7s forwards;
+}
+.love1{
+    overflow: hidden;
+    display: block;
+    height: 11.2vw;
+}
+.love{
+    animation: temple 0.7s ease-in;
+    margin-top: -2vw;
+}
+.mercy2{
+    overflow: hidden;
+    display: block;
+    height: 11.2vw;
+}
+.mercy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 11vw;
+    animation: temple 0.7s ease-in;
+}
+.and{
+    margin-top: -2vw;
+}
+.mercy1{
+    margin-top: -2vw;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    animation: appearance 2s ease 0.7s forwards;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 0;
+    opacity: 0;
+}
+.project {
+    display: inline-block;
+    font-family: JournalSans;
+    font-size: 4.7vw;
+    color: #696969;
+    margin-top: 11vw;
+    margin-left: 2vw;
+}
+.about{
+    display: inline;
+    position: absolute;
+}
+.disappointment{
+    display: inline;
+}
+.disappointment:hover ~ .hatess{
+    position: absolute;
+    opacity: 0;
+    animation: opacity 0.5s ease forwards;
+}
+.hatess{
+    position: absolute;
+    opacity: 0;
+    top: 4vw;
+    left: 57vw;
+}
+.hate{
+    width: 6.65vw;
+    height: 6.65vw;
+}
+.loove {
+    display: inline;
+}
+.loove:hover ~ .vv{
+    position: absolute;
+    opacity: 0;
+    animation: opacity 0.5s ease forwards;
+}
+.vv{
+    position: absolute;
+    opacity: 0;
+    top: 9vw;
+    left: 7vw;
+}
+.ff{
+    width: 6.65vw;
+    height: 6.65vw;
+}
+@keyframes opacity{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.concept{
+    display: inline;
+}
+.concept:hover ~ .building{
+    position: absolute;
+    opacity: 0;
+    animation: opacity 0.5s ease forwards;
+}
+.building{
+    position: absolute;
+    opacity: 0;
+    top: 23vw;
+    left: 51vw; 
+}
+.view{
+    width: 6.65vw;
+    height: 6.65vw;
+}
+.faith{
+    display: inline;
+}
+.faith:hover ~ .arch{
+    animation: opacity 0.5s ease forwards;
+}
+.arch{
+    position: absolute;
+    opacity: 0;
+    top: 27vw;
+    left: 58vw; 
+}
+.trust{
+    width: 6.65vw;
+    height: 6.65vw;
+}
+.cursor{
+    width: 3.8vw;
+    height: 3.8vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("../img/Group\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: width 0.5s height 0.5s;
+}
+.cursor.grow {
+    width: 91.6vw;
+    height: 91.6vw;
+    transition: width 0.5s height 0.5s;
+}
+.main_text:hover ~ .cursor {
+    width: 91vw;
+    height: 91vw;
+}
