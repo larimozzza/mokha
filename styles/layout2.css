@@ -1,0 +1,257 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+} 
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+} 
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+}
+.contener{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.posters{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20vw;
+    margin-top: 3.5vw;
+}
+.list{
+    display: flex;
+    width: 30vw;
+    height: 45vw;
+    font-family: JournalSans;
+    font-size: 1.46vw;
+    color: #696969;
+    flex-direction: column;
+    margin-left: 2vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pain{
+    margin-top: 6vw;
+}
+.pain:hover ~ .poster1{
+    animation: opacity 0.1s forwards;
+}
+.poster1, .poster2, .poster3, .poster4, .poster5, .poster6, .poster7, .poster8, .poster9, .poster10, .poster11, .poster12, .poster13, .poster14, .poster15, .poster16, .poster17, .poster18, .poster19, .poster20{
+    width: 30vw;
+    height: 44vw;
+    position: absolute;
+    left: 50vw;
+    top: 3.5vw;
+    border: 0.1vw solid black;
+    opacity: 0;
+}
+@keyframes opacity {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.pain:hover{
+    text-decoration: underline;
+}
+.elegy{
+    margin-top: 0.3vw;
+}
+.elegy:hover ~ .poster2{
+    animation: opacity 0.1s forwards;
+}
+.elegy:hover{
+    text-decoration: underline;
+}
+.hate{
+    margin-top: 0.3vw;
+}
+.hate:hover ~ .poster3{
+    animation: opacity 0.1s forwards;
+}
+.hate:hover{
+    text-decoration: underline;
+}
+.hug{
+    margin-top: 0.3vw;
+}
+.hug:hover ~ .poster4{
+    animation: opacity 0.1s forwards;
+}
+.hug:hover{
+    text-decoration: underline;
+}
+.slot_machine{
+    margin-top: 0.3vw;
+}
+.slot_machine:hover ~ .poster5{
+    animation: opacity 0.1s forwards;
+}
+.slot_machine:hover{
+    text-decoration: underline;
+}
+.love{
+    margin-top: 0.3vw;
+}
+.love:hover ~ .poster6{
+    animation: opacity 0.1s forwards;
+}
+.love:hover{
+    text-decoration: underline;
+}
+.white_verse{
+    margin-top: 0.3vw;
+}
+.white_verse:hover ~ .poster7{
+    animation: opacity 0.1s forwards;
+}
+.white_verse:hover{
+    text-decoration: underline;
+}
+.treason{
+    margin-top: 0.3vw;
+}
+.treason:hover ~ .poster8{
+    animation: opacity 0.1s forwards;
+}
+.treason:hover{
+    text-decoration: underline;
+}
+.dance_floor{
+    margin-top: 0.3vw;
+}
+.dance_floor:hover ~ .poster9{
+    animation: opacity 0.1s forwards;
+}
+.dance_floor:hover{
+    text-decoration: underline;
+}
+.maps{
+    margin-top: 0.3vw;
+}
+.maps:hover ~ .poster10{
+    animation: opacity 0.1s forwards;
+}
+.maps:hover{
+    text-decoration: underline;
+}
+.habitation{
+    margin-top: 0.3vw;
+}
+.habitation:hover ~ .poster11{
+    animation: opacity 0.1s forwards;
+}
+.habitation:hover{
+    text-decoration: underline;
+}
+.poets{
+    margin-top: 0.3vw;
+}
+.poets:hover ~ .poster12{
+    animation: opacity 0.1s forwards;
+}
+.poets:hover{
+    text-decoration: underline;
+}
+.separation{
+    margin-top: 0.3vw;
+}
+.separation:hover ~ .poster13{
+    animation: opacity 0.1s forwards;
+}
+.separation:hover{
+    text-decoration: underline;
+}
+.magic{
+    margin-top: 0.3vw;
+}
+.magic:hover ~ .poster14{
+    animation: opacity 0.1s forwards;
+}
+.magic:hover{
+    text-decoration: underline;
+}
+.craps{
+    margin-top: 0.3vw;
+}
+.craps:hover ~ .poster15{
+    animation: opacity 0.1s forwards;
+}
+.craps:hover{
+    text-decoration: underline;
+}
+.reflection{
+    margin-top: 0.3vw;
+}
+.reflection:hover ~ .poster16{
+    animation: opacity 0.1s forwards;
+}
+.reflection:hover{
+    text-decoration: underline;
+}
+.jealousy{
+    margin-top: 0.3vw;
+}
+.jealousy:hover ~ .poster17{
+    animation: opacity 0.1s forwards;
+}
+.jealousy:hover{
+    text-decoration: underline;
+}
+.ode{
+    margin-top: 0.3vw;
+}
+.ode:hover ~ .poster18{
+    animation: opacity 0.1s forwards;
+}
+.ode:hover{
+    text-decoration: underline;
+}
+.poker{
+    margin-top: 0.3vw;
+}
+.poker:hover ~ .poster19{
+    animation: opacity 0.1s forwards;
+}
+.poker:hover{
+    text-decoration: underline;
+}
+.betrayal{
+    margin-top: 0.3vw;
+}
+.betrayal:hover ~ .poster20{
+    animation: opacity 0.1s forwards;
+}
+.betrayal:hover{
+    text-decoration: underline;
+}

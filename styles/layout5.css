@@ -1,0 +1,192 @@
+body{
+    height: 70vw;
+    overflow: hidden;
+} 
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    margin-top: 21.5vw;
+    z-index: 2;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+}
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.swiper{
+    width: 80vw;
+    height: 100vw;
+    margin-top: -21.5vw;
+}
+.swiper-slide{
+    box-sizing: border-box;
+    text-align: center;
+    width: 63.6vw;
+    height: 33.2vw;
+}
+.temple, .main, .kitchen, .arch, .garden{
+    width: 63.6vw;
+    height: 33.2;
+}
+.temple{
+    filter:blur(0);
+    transition-property: filter;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.temple:hover{
+    filter:blur(5px);
+}
+.temple:hover~.outside{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.outside{
+    position: absolute;
+    opacity: 0;
+    font-family: JournalSans;
+    font-size: 6vw;
+    align-content: center;
+    color: #696969;
+    left: 31vw;
+    top: 15vw;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.main{
+    filter:blur(0);
+    transition-property: filter;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.main:hover{
+    filter:blur(5px);
+}
+.main:hover~.holl{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.holl{
+    position: absolute;
+    opacity: 0;
+    font-family: JournalSans;
+    font-size: 6vw;
+    align-content: center;
+    color: #696969;
+    left: 20vw;
+    top: 15vw;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.kitchen{
+    filter:blur(0);
+    transition-property: filter;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.kitchen:hover{
+    filter:blur(5px);
+}
+.kitchen:hover~.eat{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.eat{
+    position: absolute;
+    opacity: 0;
+    font-family: JournalSans;
+    font-size: 6vw;
+    align-content: center;
+    color: #696969;
+    left: 23vw;
+    top: 15vw;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.arch{
+    filter:blur(0);
+    transition-property: filter;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.arch:hover{
+    filter:blur(5px);
+}
+.arch:hover~.confession{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.confession{
+    position: absolute;
+    opacity: 0;
+    font-family: JournalSans;
+    font-size: 6vw;
+    align-content: center;
+    color: #696969;
+    left: 16vw;
+    top: 15vw;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.garden{
+    filter:blur(0);
+    transition-property: filter;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.garden:hover{
+    filter:blur(5px);
+}
+.garden:hover~.flowers{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.flowers{
+    position: absolute;
+    opacity: 0;
+    font-family: JournalSans;
+    font-size: 6vw;
+    align-content: center;
+    color: #696969;
+    left: 33vw;
+    top: 15vw;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.swiper .swiper-pagination-bullet{
+    background-color: #696969;
+    width: 1vw;
+    height: 1vw;
+}

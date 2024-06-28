@@ -1,0 +1,59 @@
+.swiper {
+    width: 100vw;
+    top: 6vw;
+  }
+.product, .cream1, .cream2, .aroma, .candle, .bag{
+    width: 28.75vw;
+    height: 38.4vw;
+}
+.swiper-slide{
+    text-align: center;
+    width: 28.75vw;
+    height: 38.4vw;
+}
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after{
+    color: black;
+    font-size: 4vw;
+}
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+}
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+p{
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+}

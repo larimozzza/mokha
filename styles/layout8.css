@@ -1,0 +1,76 @@
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    z-index: 2;
+    mix-blend-mode: difference;
+}
+.top_menu a{
+    text-decoration: none;
+    color: white;
+    mix-blend-mode: difference;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+    mix-blend-mode: difference;
+}
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.eat{
+    background-image: url("../img/kitchen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.table{
+    background-image: url("../img/table.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.vase{
+    background-image: url("../img/vase.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.granat{
+    background-image: url("../img/granat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}

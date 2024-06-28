@@ -1,0 +1,150 @@
+body {
+    margin: 0 auto;
+    background-color: white;
+    cursor: none;
+}
+.cursor{
+    width: 6.8vw;
+    height: 3.4vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url("../img/sundown.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+.cursor.up {
+    background-image: url("../img/sunup.svg");
+    height: 3.5vw;
+} 
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+} 
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+}
+.top_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: #696969;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+}
+.scroll2{
+    width: 99vw;
+    height: 43vw;
+    position: absolute;
+    top: 4vw;
+}
+.scroll{
+    width: 99vw;
+    height: 23vw;
+    position: absolute;
+    top: 52vw;
+}
+.scroll3{
+    width: 99vw;
+    height: 24vw;
+    position: absolute;
+    top: 75vw;
+}
+.scroll4{
+    width: 99vw;
+    height: 43vw;
+    position: absolute;
+    top: 103vw;
+}
+#book{
+    display: flex;
+    justify-content: space-evenly;
+}
+.note{
+    width: 70vw;
+    height: 42.4vw;
+    margin: 5vw;
+}
+#contener{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 99vw;
+    height: 46.4vw;
+    align-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 2.6vw;
+}
+.fist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.1vw;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.1vw;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.1vw;
+}
+.list1, .list2, .list3, .list4, .list5, .list6, .list7, .list8, .list9, .list10, .list11, .list12, .list13, .list14, .list15, .list16, .list17, .list18, .list19, .list20, .list21, .list22{
+    width: 21vw;
+    height: 15vw;
+}
+#contener2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 99vw;
+    height: 46.4vw;
+    align-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 2.6vw;
+    margin-top: 3vw;
+}
+.fist2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.1vw;
+}
+.second2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86.1vw;
+}
+.third2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 42.7vw;
+}

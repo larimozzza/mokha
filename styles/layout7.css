@@ -1,0 +1,76 @@
+.top_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    z-index: 2;
+    mix-blend-mode: difference;
+}
+.top_menu a{
+    text-decoration: none;
+    color: white;
+    mix-blend-mode: difference;
+}
+.bottom_menu{
+    display: flex;
+    width: 95.7vw;
+    height: 3.7vw;
+    font-family: JournalSans;
+    font-size: 1.4vw;
+    color: white;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2vw;
+    position: fixed;
+    align-content: flex-end;
+    bottom: 1vw;
+    mix-blend-mode: difference;
+}
+.bottom_menu a{
+    text-decoration: none;
+    color: #696969;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.zoom{
+    background-image: url("../img/zoom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.column{
+    background-image: url("../img/column.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
+.candles{
+    background-image: url("../img/candless.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    width: 99.3vw;
+    height: 60vw;
+}
